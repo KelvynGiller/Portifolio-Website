@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+    <div class="bg-effect"></div>
+    <div class="flex">
+        <!-- Navbar -->
+        <nav class="w-1/2 bg-gray-900 text-center fixed top-0 left-0 h-full p-5 border-r-4 border-green-700 z-10">
+            <div class="logo mt-6">
+                <img src="./images/WhatsApp Image 2024-09-02 at 16.37.42.jpeg" alt="Profile Photo" class="rounded-full w-72 h-72 object-cover border-4 border-green-700 mx-auto">
+                <a href="#" class="text-green-600 text-4xl mt-4 block">Kelvyn Giller</a>
+                <h1 class="text-xl text-green-600">Full Stack Engineer</h1>
+            </div>
+            <ul class="nav-links list-none p-0 mt-6">
+                <li><a href="#aboutme" class="text-white hover:text-green-600 py-2 block">About me</a></li>
+                <li><a href="#projects" class="text-white hover:text-green-600 py-2 block">Projects</a></li>
+                <li><a href="#skills" class="text-white hover:text-green-600 py-2 block">Skills</a></li>
+                <li><a href="#contact" class="text-white hover:text-green-600 py-2 block bg-gray-700 rounded-full px-4 py-2 mt-4 transition-transform transform hover:scale-105 w-36 mx-auto">Say Hello!</a></li>
+            </ul>
+            <div class="social-icons flex flex-col items-center space-y-2 mt-6">
+                <a href="https://www.linkedin.com/in/kelvyn-giller-1b088114b" target="_blank" class="hover:filter hover:brightness-0 hover:invert">
+                    <img src="./images/icons8-linkedin-50.png" alt="LinkedIn" class="w-8 h-8">
+                </a>
+                <a href="https://github.com/KelvynGiller?tab=repositories" target="_blank" class="hover:filter hover:brightness-0 hover:invert">
+                    <img src="./images/icons8-git-50.png" alt="GitHub" class="w-8 h-8">
+                </a>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="flex-1 ml-[50%] p-6">
+            <!-- Hero Section (About Me) -->
+            <section class="hero mb-12" id="aboutme">
+                <div class="hero-container flex gap-8">
+                    <div class="hero-text-container bg-gray-700 p-6 rounded-md w-full">
+                        <h1 class="text-5xl mb-4">WELCOME.</h1>
+                        <h2 class="text-2xl mb-4">About me:</h2>
+                        <p class="text-gray-300 text-justify">
+                            Hi, I'm Kelvyn, a 25-year-old web developer with a passion for coding. Since April 2024, I've been diving deep into the world of programming, and I'm proud to have recently graduated from the Full Stack Development course on Codecademy.
+
+                            I have hands-on experience with HTML, CSS, JavaScript, React, Redux, Node.js, Express, and Swagger, and I've successfully built dynamic, user-friendly websites and applications. My goal is to deliver innovative solutions that provide great user experiences through clean and efficient code.
+                            
+                            I'm excited about the endless possibilities in the tech world and eager to continue contributing to cutting-edge projects. Feel free to explore my portfolio and reach out if you have any questions or collaboration opportunities!
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="projects mb-12" id="projects">
+                <h1 class="text-3xl mb-4">Projects</h1>
+                <div class="card-container flex flex-col gap-6">
+                    <a href="https://github.com/KelvynGiller/Jamming" class="card bg-gray-700 p-6 rounded-lg shadow-md hover:bg-green-700 hover:transform hover:translate-y-2 transition-all">
+                        <h3 class="text-green-600 text-xl mb-3">React Jamming App</h3>
+                        <p>The application uses the Spotify API to search for tracks, add/remove songs, and save playlists to the user's account.</p>
+                    </a>
+                    <a href="https://github.com/KelvynGiller/reddit-mini-app" class="card bg-gray-700 p-6 rounded-lg shadow-md hover:bg-green-700 hover:transform hover:translate-y-2 transition-all">
+                        <h3 class="text-green-600 text-xl mb-3">Reddit Mini App</h3>
+                        <p>This project is a subreddit browsing application that allows users to explore popular posts and access specific subreddits, built with React, Redux. It uses Reddit’s public API to fetch real-time data.</p>
+                    </a>
+                    <a href="https://github.com/KelvynGiller/E-commerce-REST-API" class="card bg-gray-700 p-6 rounded-lg shadow-md hover:bg-green-700 hover:transform hover:translate-y-2 transition-all">
+                        <h3 class="text-green-600 text-xl mb-3">E-Commerce API</h3>
+                        <p>This project is an e-commerce API that manages products, users, and orders. Built with Node.js, Express, and SQL, it includes authentication, shopping cart functionality, and order management, using JWT for security and Swagger for API documentation.</p>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="skills mb-12" id="skills">
+                <h1 class="text-3xl mb-6">Skills:</h1>
+                <div class="skill-icon flex gap-6">
+                    <img src="./images/html.png" alt="html" class="w-12 opacity-50 hover:opacity-100 transition-all">
+                    <img src="./images/icons8-css-50.png" alt="css" class="w-12 opacity-50 hover:opacity-100 transition-all">
+                    <img src="./images/icons8-javascript-50.png" alt="JavaScript" class="w-12 opacity-50 hover:opacity-100 transition-all">
+                    <img src="./images/icons8-react-js-50.png" alt="react" class="w-12 opacity-50 hover:opacity-100 transition-all">
+                    <img src="./images/icons8-redux-50.png" alt="redux" class="w-12 opacity-50 hover:opacity-100 transition-all">
+                    <img src="./images/icons8-sql-50.png" alt="sql" class="w-12 opacity-50 hover:opacity-100 transition-all">
+                    <img src="./images/icons8-express-js-50.png" alt="express" class="w-12 opacity-50 hover:opacity-100 transition-all">
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact bg-gray-700 p-6 rounded-md" id="contact">
+                <h1 class="text-3xl mb-6">Say hello!</h1>
+                <form action="https://formspree.io/f/mdknjewv" method="POST" class="contact-form flex flex-col gap-6">
+                    <label for="name" class="text-lg">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name here" required class="p-3 rounded-md border-2 border-green-700">
+                    
+                    <label for="email" class="text-lg">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email address" required class="p-3 rounded-md border-2 border-green-700">
+                    
+                    <label for="message" class="text-lg">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your message here" required class="p-3 rounded-md border-2 border-green-700"></textarea>
+                    
+                    <button type="submit" class="bg-green-700 text-white py-3 rounded-md hover:bg-green-800 transition-all">Send Message</button>
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
