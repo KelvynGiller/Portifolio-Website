@@ -1,0 +1,84 @@
+{
+  "navigation": {
+    "about": "Sobre mim",
+    "projects": "Projetos",
+    "skills": "Habilidades",
+    "contact": "Diga Olá!"
+  },
+  "hero": {
+    "welcome": "BEM-VINDO.",
+    "aboutTitle": "Sobre mim:",
+    "description1": "Olá, eu sou o Kelvyn, um desenvolvedor web de 25 anos apaixonado por programação. Desde abril de 2024, tenho mergulhado profundamente no mundo da programação e tenho orgulho de ter me formado recentemente no curso de Desenvolvimento Full Stack da Codecademy.",
+    "description2": "Tenho experiência prática com HTML, CSS, JavaScript, React, Redux, Node.js, Express e Swagger, e construí com sucesso sites e aplicações dinâmicas e amigáveis ao usuário. Meu objetivo é entregar soluções inovadoras que proporcionem ótimas experiências do usuário através de código limpo e eficiente.",
+    "description3": "Estou animado com as infinitas possibilidades no mundo tech e ansioso para continuar contribuindo com projetos de ponta. Sinta-se à vontade para explorar meu portfólio e entrar em contato se tiver alguma pergunta ou oportunidade de colaboração!"
+  },
+  "projects": {
+    "title": "Projetos",
+    "grooveStore": {
+      "title": "Groove Store WIP",
+      "description": "GrooveStore é uma plataforma de e-commerce para compra e descoberta de faixas, álbuns e artistas. Construído com Node.js, Express, React, Redux e SQL, inclui autenticação com Firebase, funcionalidade de carrinho de compras e gerenciamento de pedidos, usando Stripe para pagamentos."
+    },
+    "ecommerceApi": {
+      "title": "API E-Commerce",
+      "description": "Este projeto é uma API de e-commerce que gerencia produtos, usuários e pedidos. Construído com Node.js, Express e SQL, inclui autenticação, funcionalidade de carrinho de compras e gerenciamento de pedidos, usando JWT para segurança e Swagger para documentação da API."
+    },
+    "redditMini": {
+      "title": "App Mini Reddit",
+      "description": "Este projeto é uma aplicação de navegação de subreddits que permite aos usuários explorar posts populares e acessar subreddits específicos, construído com React e Redux. Usa a API pública do Reddit para buscar dados em tempo real."
+    },
+    "jamming": {
+      "title": "App React Jamming",
+      "description": "A aplicação usa a API do Spotify para pesquisar faixas, adicionar/remover músicas e salvar playlists na conta do usuário."
+    }
+  },
+  "skills": {
+    "title": "Habilidades:",
+    "levels": {
+      "advanced": "Avançado",
+      "intermediate": "Intermediário",
+      "beginner": "Iniciante"
+    },
+    "technologies": {
+      "HTML": "HTML",
+      "CSS": "CSS",
+      "JavaScript": "JavaScript",
+      "React": "React",
+      "NextJS": "Next.js",
+      "NestJS": "NestJS",
+      "NodeJS": "Node.js",
+      "Express": "Express",
+      "Redux": "Redux",
+      "SQL": "SQL",
+      "Docker": "Docker",
+      "AWS": "AWS",
+      "AzureDevOps": "Azure DevOps",
+      "DevOps": "DevOps",
+      "Git": "Git"
+    }
+  },
+  "contact": {
+    "title": "Diga olá!",
+    "form": {
+      "name": "Nome:",
+      "email": "Email:",
+      "message": "Mensagem:",
+      "namePlaceholder": "Seu nome aqui",
+      "emailPlaceholder": "Seu endereço de email",
+      "messagePlaceholder": "Sua mensagem aqui",
+      "sendButton": "Enviar Mensagem",
+      "sending": "Enviando...",
+      "success": "Mensagem enviada com sucesso! Entrarei em contato em breve.",
+      "error": "Houve um erro ao enviar sua mensagem. Tente novamente."
+    }
+  },
+  "language": {
+    "switch": "Trocar Idioma",
+    "english": "English",
+    "portuguese": "Português"
+  },
+  "seo": {
+    "title": "Kelvyn Giller - Desenvolvedor Full Stack",
+    "description": "Portfólio de Kelvyn Giller, um desenvolvedor full stack apaixonado especializado em React, Node.js e tecnologias web modernas.",
+    "keywords": "portfólio, desenvolvedor full stack, react, node.js, javascript, typescript"
+  }
+}
