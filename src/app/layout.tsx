@@ -5,6 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://your-portfolio.vercel.app'),
   title: 'Kelvyn Giller - Full Stack Developer',
   description: 'Portfolio of Kelvyn Giller, a passionate full-stack developer specializing in React, Node.js, and modern web technologies.',
   keywords: ['portfolio', 'full stack developer', 'react', 'node.js', 'javascript', 'typescript'],
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://kelvyngiller.dev',
+    url: 'https://your-portfolio.vercel.app',
     title: 'Kelvyn Giller - Full Stack Developer',
     description: 'Portfolio of Kelvyn Giller, a passionate full-stack developer specializing in React, Node.js, and modern web technologies.',
     siteName: 'Kelvyn Giller Portfolio',
