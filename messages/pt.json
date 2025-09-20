@@ -8,12 +8,16 @@
   "hero": {
     "welcome": "BEM-VINDO.",
     "aboutTitle": "Sobre mim:",
-    "description1": "Olá, eu sou o Kelvyn, um desenvolvedor web de 25 anos apaixonado por programação. Desde abril de 2024, tenho mergulhado profundamente no mundo da programação e tenho orgulho de ter me formado recentemente no curso de Desenvolvimento Full Stack da Codecademy.",
-    "description2": "Tenho experiência prática com HTML, CSS, JavaScript, React, Redux, Node.js, Express e Swagger, e construí com sucesso sites e aplicações dinâmicas e amigáveis ao usuário. Meu objetivo é entregar soluções inovadoras que proporcionem ótimas experiências do usuário através de código limpo e eficiente.",
-    "description3": "Estou animado com as infinitas possibilidades no mundo tech e ansioso para continuar contribuindo com projetos de ponta. Sinta-se à vontade para explorar meu portfólio e entrar em contato se tiver alguma pergunta ou oportunidade de colaboração!"
+    "description1": "Olá, eu sou o Kelvyn, sou Desenvolvedor de Software com 1 ano e meio de experiência prática. Minha trajetória começou de forma autodidata, estudando e praticando mais de 8 horas por dia até conquistar minha primeira oportunidade profissional. Desde então, fui promovido de trainee a desenvolvedor júnior rapidamente, atuando tanto na construção de um sistema completo e na manutenção de aplicações em produção.",
+    "description2": "Tenho experiência com Next.js, NestJS, Docker, AWS, Azure e integrações de pagamento, além de conhecimentos em Linux, servidores, firewalls, sistemas de billing e segurança da informação. No dia a dia, aplico práticas ágeis como Scrum, Kanban e GitFlow, que me ajudam a entregar soluções organizadas e escaláveis.",
+    "description3": "Aprender novas tecnologias e explorar documentações técnicas já fazem parte da minha rotina, o que me torna um profissional adaptável a diferentes stacks. Sou motivado por desafios e busco constantemente crescer enquanto entrego soluções de impacto para usuários e empresa."
   },
   "projects": {
     "title": "Projetos",
+    "doclinix": {
+      "title": "Doclinix",
+      "description": "Plataforma de saúde digital com agendamento online, prontuário eletrônico, teleconsultas e gestão clínica. Atuo no desenvolvimento de novas funcionalidades, integrações de pagamento e manutenção em produção, utilizando Next.js, NestJS, PostgreSQL, Docker e Azure."
+    },
     "grooveStore": {
       "title": "Groove Store WIP",
       "description": "GrooveStore é uma plataforma de e-commerce para compra e descoberta de faixas, álbuns e artistas. Construído com Node.js, Express, React, Redux e SQL, inclui autenticação com Firebase, funcionalidade de carrinho de compras e gerenciamento de pedidos, usando Stripe para pagamentos."

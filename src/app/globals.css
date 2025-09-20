@@ -13,6 +13,26 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     min-height: 100vh;
+    padding-bottom: env(safe-area-inset-bottom, 20px);
+  }
+
+  /* Garantir que o conteúdo não seja cortado em telas menores */
+  @media (max-width: 768px) {
+    body {
+      padding-bottom: env(safe-area-inset-bottom, 80px);
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    body {
+      padding-bottom: env(safe-area-inset-bottom, 60px);
+    }
+  }
+
+  @media (min-width: 1025px) {
+    body {
+      padding-bottom: env(safe-area-inset-bottom, 50px);
+    }
   }
 
   h1 {
@@ -79,6 +99,13 @@
     animation: conveyor-belt 20s linear infinite;
     width: 200%;
     display: flex;
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 1024px) {
+    .animate-scroll {
+      gap: 1rem;
+    }
   }
 
   .animate-scroll:hover {

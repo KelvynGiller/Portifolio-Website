@@ -10,6 +10,13 @@ const ProjectsSection = () => {
   
   const projects: Project[] = [
     {
+      id: 'Doclinix',
+      title: t('doclinix.title'),
+      description: t('doclinix.description'),
+      url: 'https://doclinix.com/',
+      technologies: ['NestJS', 'Next.js', 'Tailwind CSS', 'TypeScript', 'Express', 'Docker', 'Azure', 'Git']
+    },
+    {
       id: 'groove-store',
       title: t('grooveStore.title'),
       description: t('grooveStore.description'),
@@ -32,14 +39,6 @@ const ProjectsSection = () => {
       githubUrl: 'https://github.com/KelvynGiller/reddit-mini-app',
       technologies: ['React', 'Redux', 'Reddit API']
     },
-    {
-      id: 'jamming',
-      title: t('jamming.title'),
-      description: t('jamming.description'),
-      url: 'https://github.com/KelvynGiller/Jamming',
-      githubUrl: 'https://github.com/KelvynGiller/Jamming',
-      technologies: ['React', 'Spotify API']
-    }
   ]
   
   return (

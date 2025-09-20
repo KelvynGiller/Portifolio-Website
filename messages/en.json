@@ -8,12 +8,16 @@
   "hero": {
     "welcome": "WELCOME.",
     "aboutTitle": "About me:",
-    "description1": "Hi, I'm Kelvyn, a 25-year-old web developer with a passion for coding. Since April 2024, I've been diving deep into the world of programming, and I'm proud to have recently graduated from the Full Stack Development course on Codecademy.",
-    "description2": "I have hands-on experience with HTML, CSS, JavaScript, React, Redux, Node.js, Express, and Swagger, and I've successfully built dynamic, user-friendly websites and applications. My goal is to deliver innovative solutions that provide great user experiences through clean and efficient code.",
-    "description3": "I'm excited about the endless possibilities in the tech world and eager to continue contributing to cutting-edge projects. Feel free to explore my portfolio and reach out if you have any questions or collaboration opportunities!"
+    "description1": "Hi, my name is Kelvyn, i am a Software Developer with 1.5 years of hands-on experience. My journey began through self-study, dedicating over 8 hours per day of practice until landing my first professional opportunity. Since then, I was promoted from trainee to junior developer, working both on building a complete system from scratch and maintaining applications already in production.",
+    "description2": "I have solid experience with Next.js, NestJS, Docker, AWS, Azure, and payment integrations, along with knowledge in Linux, servers, firewalls, billing systems, and IT security. My daily workflow involves Agile practices such as Scrum, Kanban, and GitFlow, ensuring structured and scalable deliveries.",
+    "description3": "Learning new technologies and diving into documentation has become second nature, making me adaptable across different stacks. Motivated by challenges, I strive to keep growing while delivering impactful, scalable solutions for both users and businesses."
   },
   "projects": {
     "title": "Projects",
+    "doclinix": {
+      "title": "Doclinix",
+      "description": "Digital healthcare platform with online scheduling, electronic health records, teleconsultations, and clinic management. Worked on building new features, payment integrations, and maintaining production, using Next.js, NestJS, PostgreSQL, Docker, and Azure."
+    },
     "grooveStore": {
       "title": "Groove Store WIP",
       "description": "GrooveStore is an e-commerce platform for buying and discovering tracks, albums, and artists. Built with Node.js, Express, React, Redux and SQL, it includes authentication with Firebase, shopping cart functionality, and order management, using Stripe for Payment"
@@ -21,7 +25,7 @@
     "ecommerceApi": {
       "title": "E-Commerce API",
       "description": "This project is an e-commerce API that manages products, users, and orders. Built with Node.js, Express, and SQL, it includes authentication, shopping cart functionality, and order management, using JWT for security and Swagger for API documentation."
-    },
+    },  
     "redditMini": {
       "title": "Reddit Mini App",
       "description": "This project is a subreddit browsing application that allows users to explore popular posts and access specific subreddits, built with React, Redux. It uses Reddit's public API to fetch real-time data."
